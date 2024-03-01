@@ -4,11 +4,11 @@ import styled from 'styled-components';
 export const darkTheme = {
   bg: '#1C1C27',
   bgLight: '#1C1E27',
-  primary: '#854CE6',
+  primary: 'Green',
   text_primary: '#F2F3F4',
   text_secondary: '#b1b2b3',
   card: '#171721',
-  card_light: 'rgba(25, 25, 36,1)',
+  card_light: '#121212',
   button: '#854CE6',
   white: '#FFFFFF',
   black: '#000000',
@@ -20,7 +20,7 @@ export const darkTheme = {
 export const lightTheme = {
   bg: '#F8F8FF',
   bgLight: '#f0f0f0',
-  primary: '#be1adb',
+  primary: 'Green',
   text_primary: '#111111',
   text_secondary: 'black',
   card: '#FFFFFF',
