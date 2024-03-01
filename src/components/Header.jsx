@@ -2,7 +2,7 @@ import React, { useState, useEffect, useRef } from 'react';
 import { FaBars } from 'react-icons/fa';
 import { IoClose } from 'react-icons/io5';
 import Navbar from './Navbar';
-import Logo from './Logo';
+// import Logo from './Logo';
 import ThemeIcon from './ThemeIcon';
 import HeaderDropdownMenu from './HeaderDropdownMenu';
 import { Link } from 'react-scroll';
@@ -53,7 +53,7 @@ function Header({ toggleTheme, isDarkTheme }) {
     <AppHeader>
       <HeaderMainContainer>
         <Link to="home" smooth duration={500}>
-          <Logo isDarkTheme={isDarkTheme} />
+          {/* <Logo isDarkTheme={isDarkTheme} /> */}
         </Link>
         <HeaderThemeMobileMenuWrapper>
           <HeaderThemeMobileMenuBtns>

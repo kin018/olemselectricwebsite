@@ -74,6 +74,19 @@ export const StyledNavLink = styled.a.attrs({
   }
 `;
 
+//ThemeIcon
+export const StyledThemeDarkLightLogo = styled.i.attrs({
+  className: 'StyledThemeDarkLightLogo',
+})`
+  color: ${({ theme }) => theme.text_primary};
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+
+  :hover {
+    color: ${({ theme }) => theme.primary};
+  }
+`;
+
 // Header
 export const AppHeader = styled.div.attrs({
   className: 'AppHeader',
