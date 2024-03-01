@@ -41,3 +41,35 @@ export const MainAppContainer = styled.div.attrs({
   width: 100%;
   overflow-x: hidden;
 `;
+
+// Nav
+export const NavbarContainer = styled.ul.attrs({
+  className: 'NavbarContainer',
+})`
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 32px;
+  padding: 0 6px;
+  list-style: none;
+
+  @media screen and (max-width: 768px) {
+    display: none;
+  }
+`;
+
+export const StyledNavLink = styled.a.attrs({
+  className: 'StyledNavLink',
+})`
+  color: ${({ theme }) => theme.text_primary};
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+  text-decoration: none;
+
+  &:hover {
+    color: ${({ theme }) => theme.primary};
+    border-bottom: 1.5px solid ${({ theme }) => theme.primary};
+  }
+`;
