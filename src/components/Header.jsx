@@ -21,9 +21,6 @@ function Header({ toggleTheme, isDarkTheme }) {
   const [isMenuOpenToggle, setMenuOpenToggle] = useState(false);
   const [isDropdownActive, setDropdown] = useState(false);
   const dropDownMenuRef = useRef();
-
-  //useEffect has 2 arguments but <dependency> is optional>
-  //useEffect(<function><dependency>)
   useEffect(() => {
     const dropdownHandler = (event) => {
       if (

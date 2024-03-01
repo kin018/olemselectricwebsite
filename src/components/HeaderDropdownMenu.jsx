@@ -17,22 +17,12 @@ function HeaderDropdownMenu() {
           Home
         </StyledHeaderDropdownMenuLink>
       </Link>
-
-      {/* <Link to="about" smooth duration={250} offset={-100}>
-        <StyledHeaderDropdownMenuLink>
-          <StyledHeaderDropdownMenuIcon>
-            <Icon icon="uil:user" />
-          </StyledHeaderDropdownMenuIcon>
-          About
-        </StyledHeaderDropdownMenuLink>
-      </Link> */}
-
-      <Link to="skills" smooth duration={300} offset={-100}>
+      <Link to="about" smooth duration={300} offset={-100}>
         <StyledHeaderDropdownMenuLink>
           <StyledHeaderDropdownMenuIcon>
             <Icon icon="uil:file-alt" />
           </StyledHeaderDropdownMenuIcon>
-          Skills
+          About
         </StyledHeaderDropdownMenuLink>
       </Link>
       <Link to="services" smooth duration={300} offset={-100}>
@@ -43,12 +33,12 @@ function HeaderDropdownMenu() {
           Services
         </StyledHeaderDropdownMenuLink>
       </Link>
-      <Link to="projects" smooth duration={300} offset={-100}>
+      <Link to="testimonials" smooth duration={300} offset={-100}>
         <StyledHeaderDropdownMenuLink>
           <StyledHeaderDropdownMenuIcon>
             <Icon icon="uil:scenery" />
           </StyledHeaderDropdownMenuIcon>
-          Projects
+          Testimonials
         </StyledHeaderDropdownMenuLink>
       </Link>
       <Link to="contact" smooth duration={300} offset={-100}>

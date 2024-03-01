@@ -19,8 +19,8 @@ function Navbar({ toggleTheme, isDarkTheme }) {
         <Link to="services" smooth duration={300} offset={-100}>
           <StyledNavLink>Services</StyledNavLink>
         </Link>
-        <Link to="Testimonials" smooth duration={300} offset={-100}>
-          <StyledNavLink>Projects</StyledNavLink>
+        <Link to="testimonials" smooth duration={300} offset={-100}>
+          <StyledNavLink>Testimonials</StyledNavLink>
         </Link>
         <Link to="contact" smooth duration={300} offset={-100}>
           <StyledNavLink>Contact</StyledNavLink>
