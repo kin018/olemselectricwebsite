@@ -32,3 +32,12 @@ export const lightTheme = {
   border: '#cad4e0',
   buttonHover: '#854CE6',
 };
+
+// App.js Main styling
+export const MainAppContainer = styled.div.attrs({
+  className: 'MainAppContainer',
+})`
+  background-color: ${({ theme }) => theme.bg};
+  width: 100%;
+  overflow-x: hidden;
+`;
