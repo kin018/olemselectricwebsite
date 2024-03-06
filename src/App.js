@@ -7,7 +7,6 @@ import Header from './components/Header';
 import Footer from './components/Footer';
 import {
   MainAppContainer,
-  // GradientWrapper,
   darkTheme,
   lightTheme,
 } from './styledComponents/StyledComponents';
@@ -49,9 +48,9 @@ function App() {
             
           
           </GradientWrapper>
-          <Footer /> */}
+           */}
+          <Footer />
         </MainAppContainer>
-        <Footer />
       </Router>
     </ThemeProvider>
   );

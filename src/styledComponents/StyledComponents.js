@@ -2,7 +2,7 @@ import styled from 'styled-components';
 
 // Theme Definitions
 export const darkTheme = {
-  bg: '#1C1C27',
+  bg: 'Pink',
   bgLight: '#1C1E27',
   primary: 'Green',
   text_primary: '#F2F3F4',
@@ -18,7 +18,7 @@ export const darkTheme = {
 };
 
 export const lightTheme = {
-  bg: '#F8F8FF',
+  bg: 'Pink',
   bgLight: '#f0f0f0',
   primary: 'Green',
   text_primary: '#111111',
