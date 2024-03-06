@@ -235,3 +235,104 @@ export const StyledHeaderDropdownMenuIcon = styled.i.attrs({
   font-size: 1.2rem;
     }
   `;
+
+//Footer
+export const FooterMainContainer = styled.div.attrs({
+  className: 'FooterMainContainer',
+})`
+  width: 100%;
+  padding: 2rem 0;
+  display: flex;
+  justify-content: center;
+`;
+
+export const FooterWrapper = styled.footer.attrs({
+  className: 'FooterWrapper',
+})`
+  width: 100%;
+  max-width: 1200px;
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  align-items: center;
+  padding: 1rem;
+  color: ${({ theme }) => theme.text_primary};
+`;
+export const Copyright = styled.p.attrs({
+  className: 'Copyright',
+})`
+  margin-top: 1.5rem;
+  font-size: 0.9rem;
+  color: ${({ theme }) => theme.soft2};
+  text-align: center;
+`;
+
+export const SocialMediaIconDiv = styled.div.attrs({
+  className: 'SocialMediaIconDiv',
+})`
+  display: flex;
+  margin-top: 1rem;
+`;
+
+export const SocialMediaIconLink = styled.a.attrs({
+  className: 'SocialMediaIconLink',
+})`
+  display: inline-block;
+  margin: 0 1rem;
+  font-size: 1.5rem;
+  color: ${({ theme }) =>
+    theme.text_primary}; //This changes the Icon Color but may need to change TextLoop Color because I do not like that they match
+
+  transition: color 0.2s ease-in-out;
+  &:hover {
+    transform: translateY(-1px);
+    color: ${({ theme }) => theme.primary};
+  }
+`;
+
+export const FooterName = styled.h1.attrs({
+  className: 'FooterName',
+})`
+  font-weight: 600;
+  font-size: 20px;
+  color: ${({ theme }) => theme.primary};
+`;
+
+export const FooterLink = styled.a.attrs({
+  className: 'FooterLink',
+})`
+  color: ${({ theme }) => theme.text_primary};
+  text-decoration: none;
+  font-size: 1.2rem; //Need to change font size this is too large currently
+  transition: color 0.2s ease-in-out;
+  cursor: pointer;
+
+  &:hover {
+    transform: translateY(-1px);
+    color: ${({ theme }) => theme.primary};
+  }
+
+  @media (max-width: 768px) {
+    font-size: 1rem;
+  }
+`;
+
+export const FooterNav = styled.nav.attrs({
+  className: 'FooterNav',
+})`
+  width: 100%;
+  max-width: 800px;
+  margin-top: 0.5rem;
+  display: flex;
+  flex-direction: row;
+  gap: 2rem;
+  justify-content: center;
+
+  @media (max-width: 768px) {
+    flex-wrap: wrap;
+    gap: 1rem;
+    justify-content: center;
+    text-align: center;
+    font-size: 12px;
+  }
+`;
