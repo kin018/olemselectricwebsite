@@ -5,6 +5,7 @@ import { ToastContainer } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 import Header from './components/Header';
 import Footer from './components/Footer';
+import Contact from './components/Contact';
 import {
   MainAppContainer,
   darkTheme,
@@ -39,16 +40,7 @@ function App() {
       <Router>
         <Header toggleTheme={toggleTheme} isDarkTheme={isDarkTheme} />
         <MainAppContainer>
-          {/* <Home />
-          <GradientWrapper>
-
-          </GradientWrapper>
-
-          <GradientWrapper>
-            
-          
-          </GradientWrapper>
-           */}
+          <Contact />
           <Footer />
         </MainAppContainer>
       </Router>
