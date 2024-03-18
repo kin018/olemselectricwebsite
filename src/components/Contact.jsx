@@ -53,7 +53,7 @@ function Contact() {
             <ContactHubMediaBlob>
               <ContactHubMediaHeader>
                 Temp <br />
-                Chat!
+                Jawn!
               </ContactHubMediaHeader>
             </ContactHubMediaBlob>
           </ContactHubMediaContainer>
