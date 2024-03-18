@@ -6,6 +6,8 @@ import 'react-toastify/dist/ReactToastify.css';
 import Header from './components/Header';
 import Footer from './components/Footer';
 import Contact from './components/Contact';
+import Home from './components/Home';
+
 import {
   MainAppContainer,
   darkTheme,
@@ -40,6 +42,7 @@ function App() {
       <Router>
         <Header toggleTheme={toggleTheme} isDarkTheme={isDarkTheme} />
         <MainAppContainer>
+          <Home />
           <Contact />
           <Footer />
         </MainAppContainer>
