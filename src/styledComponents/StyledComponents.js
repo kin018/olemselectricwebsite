@@ -637,26 +637,3 @@ export const HomeMainWrapper = styled.div.attrs({
     flex-direction: column;
   }
 `;
-
-export const HomeDescriptionContainer = styled.div.attrs({
-  className: 'HomeDescriptionContainer',
-})`
-  width: 100%;
-  order: 1; // Content order on larger screens
-
-  @media (max-width: 960px) {
-    order: 2; // Content order on smaller screens
-    margin-bottom: 30px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-
-  @media (max-width: 640px) {
-    order: 2; // Content order on smaller screens
-    margin-bottom: 30px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-`;
