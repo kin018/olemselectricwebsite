@@ -592,3 +592,71 @@ export const ContactBlobImgSVGWrapper = styled.div.attrs({
     }
   }
 `;
+
+//Home Component
+export const HomeMainContainer = styled.div.attrs({
+  className: 'HomeMainContainer',
+})`
+  display: flex;
+  justify-content: center;
+  position: relative;
+  background-color: ${({ theme }) => theme.card_light};
+  padding: 80px 30px;
+
+  @media (min-width: 961px) {
+    height: 100vh; //full screen height for landing page
+    width: 100vw; //full screen width for landing page
+  }
+
+  @media (max-width: 960px) {
+    padding: 66px 16px;
+  }
+
+  @media (max-width: 640px) {
+    padding: 32px 16px;
+  }
+
+  @media (max-width: 363px) {
+    padding: 32px 16px;
+  }
+
+  z-index: 1;
+`;
+
+export const HomeMainWrapper = styled.div.attrs({
+  className: 'HomeMainWrapper',
+})`
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  max-width: 1100px;
+
+  @media (max-width: 960px) {
+    flex-direction: column;
+  }
+`;
+
+export const HomeDescriptionContainer = styled.div.attrs({
+  className: 'HomeDescriptionContainer',
+})`
+  width: 100%;
+  order: 1; // Content order on larger screens
+
+  @media (max-width: 960px) {
+    order: 2; // Content order on smaller screens
+    margin-bottom: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  @media (max-width: 640px) {
+    order: 2; // Content order on smaller screens
+    margin-bottom: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+`;
