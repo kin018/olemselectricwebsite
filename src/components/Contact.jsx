@@ -59,7 +59,7 @@ function Contact() {
           </ContactHubMediaContainer>
           <ContactHubFormContainer>
             <ContactHubMediaVerticalHeader>
-              Let's Chat!
+              Temp Jawn!
             </ContactHubMediaVerticalHeader>
             <form ref={form} onSubmit={sendEmail}>
               <ContactHubFormInput
